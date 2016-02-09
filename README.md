@@ -76,7 +76,7 @@ Ruby | JavaScript
 `<method>` | `some`
 `+`| `<method>`
 
-What do you notice?  Where are `any?` and `reduce` defined?
+What do you notice?
 
 ## Additional Ruby Array Methods
 
