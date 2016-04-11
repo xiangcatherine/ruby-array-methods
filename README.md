@@ -47,7 +47,7 @@ Alternating between Ruby and JavaScript, write scripts, in `bin/fibonacci.rb`
  and `bin/fibonacci.js` that:
 
 -   calculates the sum of the first ten Fibonacci numbers
--   calculates the product of the first ten Fibonacci numbers
+-   calculates the product of the first ten Fibonacci numbers (excluding zero).
 -   calculates the sum of the the odd Fibonacci numbers
 -   calculates the product of the even Fibonacci numbers (excluding zero).
 
