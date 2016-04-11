@@ -53,7 +53,7 @@ Alternating between Ruby and JavaScript, write scripts, in `bin/fibonacci.rb`
 
 ### Code along - People
 
-Let's use the scripts `bin/people-array.js` and `bin/people-array.rb` to explore
+Let's use the scripts `bin/people-array.js` and `bin/people_array.rb` to explore
  Array methods in both Ruby and JavaScript.
 The data in the objects we'll be processing comes from the comma separated
  values (CSV) file `data/people.csv`
@@ -63,7 +63,7 @@ The Person objects we'll test against have properties/methods that align with
 
 ### Lab - People
 
-Use the `bin/people-array.*` scripts to
+Use the `bin/people<-|_>array.*` scripts to
 
 -   Count all the people who are older than you (or just pick an age).  Younger.
 -   Count all the people whose first name and last name start with the same
@@ -103,7 +103,7 @@ The results of the Ruby Array methods `-`, `&`, `|`, and `flatten` aren't easily
 
 ### Code along - Sets, etc
 
-We'll explore these methods using `bin/sets-etc.rb`.
+We'll explore these methods using `bin/sets_etc.rb`.
 
 ## [License](LICENSE)
 
