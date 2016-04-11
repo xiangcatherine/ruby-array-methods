@@ -17,7 +17,7 @@ By the end of this lesson, students should be able to:
 
 ## Introduction
 
-We'll contrast Ruby's [Array](http://ruby-doc.org/core-2.2.3/Array.html) methods
+We'll contrast Ruby's [Array](http://ruby-doc.org/core-2.3.0/Array.html) methods
  with  [JavaScript's](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 First let's quickly compare the list of methods for Array in each language.
