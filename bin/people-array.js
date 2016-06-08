@@ -1,6 +1,6 @@
 'use strict';
 
-var loadPeople = require('../lib/people.js');
+let loadPeople = require('../lib/people.js');
 
 loadPeople().then((people) => {
   let count = people.reduce((m /*, p */) => m + 1, 0);
