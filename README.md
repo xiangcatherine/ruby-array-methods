@@ -40,7 +40,7 @@ documentation for reference:
 -   [Array.prototype - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
 -   [Class: Array (Ruby 2.3.0)](http://ruby-doc.org/core-2.3.0/Array.html)
 
-## `map` and `reduce`
+## Demo: `map`
 
 Ruby and JavaScript Arrays both have a `map` and a `reduce` method. Let's
 explore using them to see the similarities and differences.
@@ -72,16 +72,20 @@ fibs.map((fib) => {
 });
 ```
 
-In JavaScript, we use a function to control the behavior of Array methods.
-In Ruby, we use a block ( `{ |p| ... }` for one line blocks, `do ... end` for
- multi-line blocks).
+## Code Along: `reduce`
+
+Let's use `reduce` to calculate the sum of elements in `fibs` in both Ruby and
+JavaScript.
+
+> In JavaScript, we use a function to control the behavior of Array methods.
+> In Ruby, we use a block ( `{ |p| ... }` for one line blocks, `do ... end` for
+> multi-line blocks).
 
 ## Lab: Fibonacci Calculations
 
-Alternating between Ruby and JavaScript, write scripts, in `bin/fibonacci.rb`
- and `bin/fibonacci.js` that:
+Alternating between Ruby and JavaScript, write
+ scripts, in `bin/fibonacci.rb` and `bin/fibonacci.js`, that:
 
--   calculates the sum of elements of `fibs`
 -   calculates the product of elements of `fibs` (excluding zero).
 -   calculates the sum of the odd elements of `fibs`
 -   calculates the product of the even elements of `fibs`(excluding zero).
