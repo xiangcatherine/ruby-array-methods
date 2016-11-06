@@ -9,23 +9,21 @@ with
 ## Prerequisites
 
 -   [ga-wdi-boston/js-array-methods](https://github.com/ga-wdi-boston/js-array-methods)
--   [ga-wdi-boston/ruby-vs-js-arrays](https://github.com/ga-wdi-boston/ruby-vs-js-arrays)
+-   [ga-wdi-boston/ruby-vs-js-arrays](https://github.com/ga-wdi-boston/ruby-arrays)
 
 ## Objectives
 
 By the end of this, developers should be able to:
 
--   Contrast enumerable methods on Ruby’s `Array` with iteration methods on
-    JavaScript’s `Array.prototype`.
--   Pass inline code as blocks or reference them as symbols in Ruby and contrast
-    with passing inline code as anonymous or named functions in JavaScript.
+-   Use Ruby array methods to iterate through arrays.
+-   Pass inline code as blocks or reference them as symbols in Ruby.
 
 ## Preparation
 
 1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
 1.  Make a new branch, `training`.
-1.  Install dependencies with `npm install` and `bundle install`.
+1.  Install dependencies with `bundle install`.
 
 ## Array Methods
 
@@ -42,21 +40,14 @@ documentation for reference:
 
 ## Demo: `map`
 
-Ruby and JavaScript Arrays both have a `map` and a `reduce` method. Let's
-explore using them to see the similarities and differences.
+Let's explore Ruby's `map` method.
 
 ```ruby
 # in irb or pry
 fibs = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 ```
 
-```js
-// in node
-let fibs = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34];
-```
-
-How can we use map to multiply each member of `fibs` by two in both Ruby and
-JavaScript?
+How can we use map to multiply each member of `fibs` by two in Ruby?
 
 ```ruby
 # fibs.map { |fib| ... } for single-line, or
@@ -66,25 +57,18 @@ fibs.map do |fib|
 end
 ```
 
-```js
-fibs.map((fib) => {
-  // something here
-});
-```
-
 ## Code Along: `reduce`
 
-Let's use `reduce` to calculate the sum of elements in `fibs` in both Ruby and
-JavaScript.
+Let's use `reduce` to calculate the sum of elements in `fibs` in both Ruby.
 
-> In JavaScript, we use a function to control the behavior of Array methods.
+> In JavaScript, we used a function to control the behavior of Array methods.
 > In Ruby, we use a block ( `{ |p| ... }` for one line blocks, `do ... end` for
 > multi-line blocks).
 
 ## Lab: Fibonacci Calculations
 
-Alternating between Ruby and JavaScript, write
- scripts, in `bin/fibonacci.rb` and `bin/fibonacci.js`, that:
+In Ruby, write
+ scripts, in `lib/fibonacci.rb`.
 
 -   calculates the product of elements of `fibs` (excluding zero).
 -   calculates the sum of the odd elements of `fibs`
@@ -92,41 +76,22 @@ Alternating between Ruby and JavaScript, write
 
 ## Code-Along: People
 
-Let's use the scripts `bin/people-array.js` and `bin/people_array.rb` to explore
-Array methods in both Ruby and JavaScript. The data in the objects we'll be
-processing comes from the comma separated values (CSV) file `data/people.csv`
+Let's use the script `bin/people_array.rb` to explore Array methods in Ruby.
+The data in the objects we'll be processing comes from the comma separated
+values (CSV) file `data/people.csv`.
 
 The Person objects we'll test against have properties/methods that align with
-the headers in `data/people.csv` plus the method `age`
+the headers in `data/people.csv` plus the method `age`.
 
 ## Lab: People
 
-Use the `bin/people<-|_>array.*` scripts to
+Use the `bin/people_array.*` scripts to
 
 -   Count all the people who are older than you (or just pick an age).
 -   Count all the people who are younger than you (or just pick an age).
 -   Count all the people whose first name and last name start with the same
     letter.
 -   Calculate the average age of all the people.
-
-## Lab: Compare and Contrast Methods
-
-Build a table mapping Ruby Array methods to direct or modified invocations of
-JavaScript Array methods. Show the invocation, on an array variable named `a`,
-with an example block or function. For the JavaScript equivalent of Ruby Array's
-`+`, use an array variable named `b`.
-
-| Ruby       | JavaScript |
-|:-----------|:-----------|
-| `<method>` | `every`    |
-| `<method>` | `filter`   |
-| `<method>` | `find`     |
-| `map`      | `map`      |
-| `reduce`   | `reduce`   |
-| `<method>` | `some`     |
-| `+`        | `<method>` |
-
-What do you notice?
 
 ## Code-Along: Set Operations
 
