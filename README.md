@@ -2,9 +2,14 @@
 
 # Ruby Array Methods (versus JavaScript)
 
-We'll contrast Ruby's [Array](http://ruby-doc.org/core-2.3.0/Array.html)
-methods with
-[JavaScript's](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+We'll explore Ruby's [Array](http://ruby-doc.org/core-2.3.0/Array.html) type
+and some of its methods. We'll also have a look at a few ways in which Ruby
+makes list processing (iterating through arrays) a bit more fun for the
+developer.
+
+List processing is at the core of most web development tasks, so practicing it
+in Ruby (and later, comparing it to JavaScript), will illuminate the logical
+features of list processing tasks in addition to implementation specifics.
 
 ## Prerequisites
 
