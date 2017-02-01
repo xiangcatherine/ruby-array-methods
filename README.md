@@ -2,9 +2,14 @@
 
 # Ruby Array Methods (versus JavaScript)
 
-We'll contrast Ruby's [Array](http://ruby-doc.org/core-2.3.0/Array.html) methods
-with
-[JavaScript's](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+We'll explore Ruby's [Array](http://ruby-doc.org/core-2.3.0/Array.html) type
+and some of its methods. We'll also have a look at a few ways in which Ruby
+makes list processing (iterating through arrays) a bit more fun for the
+developer.
+
+List processing is at the core of most web development tasks, so practicing it
+in Ruby (and later, comparing it to JavaScript), will illuminate the logical
+features of list processing tasks in addition to implementation specifics.
 
 ## Prerequisites
 
@@ -16,7 +21,8 @@ with
 By the end of this, developers should be able to:
 
 -   Use Ruby array methods to iterate through arrays.
--   Pass inline code as blocks or reference them as symbols in Ruby.
+-   Pass inline code as blocks to Array instance methods.
+-   Pass method names as symbols to Array instance methods.
 
 ## Preparation
 
@@ -29,8 +35,8 @@ By the end of this, developers should be able to:
 
 Both JavaScript and Ruby have types that represent lists. In both languages,
 these types are called "arrays". In Ruby, `Array` is a class that holds methods
-for arrays, and in JavaScript, `Array.prototype` is an object that holds methods
-for arrays.
+for arrays, and in JavaScript, `Array.prototype` is an object that holds
+  methods for arrays.
 
 Let's compare the list of methods for Array in each language. Here is some
 documentation for reference:
@@ -59,7 +65,7 @@ end
 
 ## Code Along: `reduce`
 
-Let's use `reduce` to calculate the sum of elements in `fibs` in both Ruby.
+Let's use `reduce` to calculate the sum of elements in `fibs`.
 
 > In JavaScript, we used a function to control the behavior of Array methods.
 > In Ruby, we use a block ( `{ |p| ... }` for one line blocks, `do ... end` for
@@ -85,7 +91,7 @@ the headers in `data/people.csv` plus the method `age`.
 
 ## Lab: People
 
-Use the `bin/people_array.*` scripts to
+Use the `bin/people_array.rb` script to
 
 -   Count all the people who are older than you (or just pick an age).
 -   Count all the people who are younger than you (or just pick an age).
@@ -95,8 +101,8 @@ Use the `bin/people_array.*` scripts to
 
 ## Code-Along: Set Operations
 
-The results of the Ruby Array methods `-`, `&`, `|`, and `flatten` aren't easily
-reproducible in JavaScript.
+The results of the Ruby Array methods `-`, `&`, `|`, and `flatten` aren't
+easily reproducible in JavaScript.
 
 -   [`-`](http://ruby-doc.org/core-2.3.0/Array.html#method-i-2D) is an Array
     Difference
