@@ -90,7 +90,7 @@ the headers in `data/people.csv` plus the method `age`.
 
 ## Lab: People
 
-Use the `bin/people_array.*` scripts to
+Use the `bin/people_array.rb` script to
 
 -   Count all the people who are older than you (or just pick an age).
 -   Count all the people who are younger than you (or just pick an age).
