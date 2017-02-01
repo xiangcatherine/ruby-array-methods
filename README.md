@@ -64,7 +64,7 @@ end
 
 ## Code Along: `reduce`
 
-Let's use `reduce` to calculate the sum of elements in `fibs` in both Ruby.
+Let's use `reduce` to calculate the sum of elements in `fibs`.
 
 > In JavaScript, we used a function to control the behavior of Array methods.
 > In Ruby, we use a block ( `{ |p| ... }` for one line blocks, `do ... end` for
