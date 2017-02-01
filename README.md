@@ -21,7 +21,8 @@ features of list processing tasks in addition to implementation specifics.
 By the end of this, developers should be able to:
 
 -   Use Ruby array methods to iterate through arrays.
--   Pass inline code as blocks or reference them as symbols in Ruby.
+-   Pass inline code as blocks to Array instance methods.
+-   Pass method names as symbols to Array instance methods.
 
 ## Preparation
 
