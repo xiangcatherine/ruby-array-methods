@@ -2,8 +2,8 @@
 
 # Ruby Array Methods (versus JavaScript)
 
-We'll contrast Ruby's [Array](http://ruby-doc.org/core-2.3.0/Array.html) methods
-with
+We'll contrast Ruby's [Array](http://ruby-doc.org/core-2.3.0/Array.html)
+methods with
 [JavaScript's](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 ## Prerequisites
@@ -29,8 +29,8 @@ By the end of this, developers should be able to:
 
 Both JavaScript and Ruby have types that represent lists. In both languages,
 these types are called "arrays". In Ruby, `Array` is a class that holds methods
-for arrays, and in JavaScript, `Array.prototype` is an object that holds methods
-for arrays.
+for arrays, and in JavaScript, `Array.prototype` is an object that holds
+  methods for arrays.
 
 Let's compare the list of methods for Array in each language. Here is some
 documentation for reference:
@@ -95,8 +95,8 @@ Use the `bin/people_array.*` scripts to
 
 ## Code-Along: Set Operations
 
-The results of the Ruby Array methods `-`, `&`, `|`, and `flatten` aren't easily
-reproducible in JavaScript.
+The results of the Ruby Array methods `-`, `&`, `|`, and `flatten` aren't
+easily reproducible in JavaScript.
 
 -   [`-`](http://ruby-doc.org/core-2.3.0/Array.html#method-i-2D) is an Array
     Difference
