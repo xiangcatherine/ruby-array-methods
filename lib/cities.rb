@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'csv'
 require_relative 'city.rb'
 #
@@ -7,7 +9,7 @@ class Cities
     @cities = []
     CSV.foreach('data/cities.csv',
                 headers: true,
-                header_converters: -> (h) { h.downcase.to_sym }) do |city|
+                header_converters: ->(h) { h.downcase.to_sym }) do |city|
       @cities << City.new(city.to_hash)
     end
   end
