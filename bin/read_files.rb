@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # script processing two files
 
 line_count = 0

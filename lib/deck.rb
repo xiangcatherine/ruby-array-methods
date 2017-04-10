@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'card'
 
 # A simple represenation of a deck of playing cards
@@ -20,6 +22,5 @@ class Deck < Array
     shift
   end
 
-  def deal(cards, *hands)
-  end
+  def deal(cards, *hands); end
 end

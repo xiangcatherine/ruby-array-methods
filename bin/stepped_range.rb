@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 #
 class SteppedRange
   def initialize(step, start, stop)

@@ -13,14 +13,14 @@ features of list processing tasks in addition to implementation specifics.
 
 ## Prerequisites
 
--   [ga-wdi-boston/js-array-methods](https://github.com/ga-wdi-boston/js-array-methods)
--   [ga-wdi-boston/ruby-vs-js-arrays](https://github.com/ga-wdi-boston/ruby-arrays)
+-   [JavaScript Array Methods](https://github.com/ga-wdi-boston/js-array-methods)
+-   [Ruby Array](https://github.com/ga-wdi-boston/ruby-arrays)
 
 ## Objectives
 
 By the end of this, developers should be able to:
 
--   Use Ruby array methods to iterate through arrays.
+-   Iterate through arrays by using Ruby array methods.
 -   Pass inline code as blocks to Array instance methods.
 -   Pass method names as symbols to Array instance methods.
 
